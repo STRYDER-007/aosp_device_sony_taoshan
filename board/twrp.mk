@@ -1,7 +1,7 @@
 # TWRP configurations
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 RECOVERY_SDCARD_ON_DATA := true
-TARGET_RECOVERY_FSTAB := device/sony/taoshan/rootdir/fstab.qcom
+TARGET_RECOVERY_FSTAB := device/sony/taoshan/rootdir/twrp.fstab
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_CRYPTO_FS_FLAGS := "0x00000406"
 TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,barrier=1,noauto_da_alloc,discard"
