@@ -25,7 +25,7 @@ const char *mr_init_devices[] =
     "/sys/class/misc/uinput",
     "/sys/devices/platform/gpio-keys/input*",
     "/sys/devices/platform/msm_ssbi.0/pm8038-core/pm8xxx-pwrkey/input*",
-    "/sys/devices/i2c-3/3-0024/input/input*",
+    "/sys/devices/i2c-3/3-0024/input*",
 
 
     // ADB
