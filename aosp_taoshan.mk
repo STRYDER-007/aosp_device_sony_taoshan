@@ -15,8 +15,8 @@
 # limitations under the License.
 #
 
-# Inherit common Lineage stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit common AOSP-CAF stuff
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Inherit device configurations
 $(call inherit-product, device/sony/taoshan/device.mk)
@@ -27,7 +27,7 @@ TARGET_SCREEN_WIDTH := 480
 
 # Device identifications
 PRODUCT_DEVICE := taoshan
-PRODUCT_NAME := lineage_taoshan
+PRODUCT_NAME := aosp_taoshan
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia L
